@@ -1,0 +1,24 @@
+# Maven build output
+/target/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Generated annotation source directories (as per compiler.xml, assuming they are build artifacts)
+/annotations/
+/test-annotations/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
