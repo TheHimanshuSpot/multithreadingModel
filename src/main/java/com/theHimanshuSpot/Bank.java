@@ -6,10 +6,11 @@ import java.util.OptionalDouble;
 
 public class Bank {
 	
-	public double[] accounts;
-	
+	private double[] accounts;
+	public final int SIZE = 100;
 	
 	public Bank(double amount) {
+		accounts = new double[SIZE];
 		Arrays.fill(accounts, amount);
 	}
 	

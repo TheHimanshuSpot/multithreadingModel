@@ -16,4 +16,18 @@ public class AppTest {
     public void shouldAnswerWithTrue() {
         assertTrue(true);
     }
+
+
+    @Test
+    public void sampleTest(){
+        Bank bank= new Bank(100000);
+        double sum = bank.total();
+        bank.transfer(10,20,50000);
+        if(bank.total()==sum)
+            assertTrue(true);
+        else{
+            assertTrue(false);
+        }
+
+    }
 }
