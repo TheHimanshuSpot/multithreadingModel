@@ -1,4 +1,4 @@
-package com.theHimanshuSpot;
+package com.github.TheHimanshuSpot;
 
 /**
  * Hello world!
